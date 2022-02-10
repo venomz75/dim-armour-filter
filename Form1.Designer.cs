@@ -1,5 +1,5 @@
 ﻿
-namespace DIM_Search_Query_Generator
+namespace DIM_Armour_Filter
 {
     partial class Form1
     {

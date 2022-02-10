@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DIM_Search_Query_Generator
+namespace DIM_Armour_Filter
 {
     static class Program
     {
