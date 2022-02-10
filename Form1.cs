@@ -37,13 +37,13 @@ namespace DIM_Armour_Filter
             if (radMasterworkNo.Checked) output += "not:masterwork ";
 
             //Base stats
-            if (nudMobility.Value > 0) output += "basestat:mobility:>" + nudMobility.Value.ToString() + " ";
-            if (nudResilience.Value > 0) output += "basestat:resilience:>" + nudResilience.Value.ToString() + " ";
-            if (nudRecovery.Value > 0) output += "basestat:recovery:>" + nudRecovery.Value.ToString() + " ";
-            if (nudDiscipline.Value > 0) output += "basestat:discipline:>" + nudDiscipline.Value.ToString() + " ";
-            if (nudIntellect.Value > 0) output += "basestat:intellect:>" + nudIntellect.Value.ToString() + " ";
-            if (nudStrength.Value > 0) output += "basestat:strength:>" + nudStrength.Value.ToString() + " ";
-            if (nudTotal.Value > 0) output += "basestat:total:>" + nudTotal.Value.ToString() + " ";
+            if (nudMobility.Value > 0) output += "basestat:mobility:>=" + nudMobility.Value.ToString() + " ";
+            if (nudResilience.Value > 0) output += "basestat:resilience:>=" + nudResilience.Value.ToString() + " ";
+            if (nudRecovery.Value > 0) output += "basestat:recovery:>=" + nudRecovery.Value.ToString() + " ";
+            if (nudDiscipline.Value > 0) output += "basestat:discipline:>=" + nudDiscipline.Value.ToString() + " ";
+            if (nudIntellect.Value > 0) output += "basestat:intellect:>=" + nudIntellect.Value.ToString() + " ";
+            if (nudStrength.Value > 0) output += "basestat:strength:>=" + nudStrength.Value.ToString() + " ";
+            if (nudTotal.Value > 0) output += "basestat:total:>=" + nudTotal.Value.ToString() + " ";
 
             //Piece
             if (radPieceHelmet.Checked) output += "is:helmet ";
